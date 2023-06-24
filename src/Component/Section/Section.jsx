@@ -4,15 +4,11 @@ import data from "/Users/hakimsedoud/Documents/LeReacteur/react/Netflix/my-react
 const Section = () => {
     return (
 <div className="section">
-    {data.map ((element) => {
-        return (
+
             <Title 
-            category = {element.category}
+ 
             />
-        )
-           
-    
-    })}
+ 
 </div>
     )
   };
