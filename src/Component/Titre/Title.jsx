@@ -1,9 +1,7 @@
 import data from "/Users/hakimsedoud/Documents/LeReacteur/react/Netflix/my-react-app/src/assets/data.json"
-const Title = () => {
+const Title = ({category}) => {
     return (
-       <h2>  {data.map((element) => {
-        return (element.category);
-       })}  </h2>
+       <h2>  {category}  </h2>
     )
   };
   
